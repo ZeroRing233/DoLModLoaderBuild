@@ -1,4 +1,6 @@
 
+(孩子不懂事自己fork下来构建着玩的，无视之）
+
 # 附带"[ModLoader](https://github.com/Lyoko-Jeremie/sugarcube-2-ModLoader)"的"[Degrees of Lewdity](https://gitgud.io/Vrelnir/degrees-of-lewdity)"预构建发布项目
 
 本仓库用于自动构建附带ModLoader的DoL游戏。您可以在Release页面下载构建好的版本。
