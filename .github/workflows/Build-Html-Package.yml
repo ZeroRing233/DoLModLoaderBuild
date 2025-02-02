@@ -58,26 +58,26 @@ jobs:
           ref: TS
           #submodules: recursive
 
-      - name: init ModLoader
-        working-directory: ${{ github.workspace }}/ModLoader
-        run: git submodule update --init --recursive
+      # - name: init ModLoader
+      #   working-directory: ${{ github.workspace }}/ModLoader
+      #   run: git submodule update --init --recursive
 
-#      - name: ModLoader
-#        uses: actions/checkout@v4
-#        with:
-#          repository: Lyoko-Jeremie/sugarcube-2-ModLoader
-#          path: ModLoader
-#          ref: master
-#          submodules: recursive
+     - name: ModLoader
+       uses: actions/checkout@v4
+       with:
+         repository: Lyoko-Jeremie/sugarcube-2-ModLoader
+         path: ModLoader
+         ref: master
+         submodules: recursive
 
-#      - name: DoL
-#        uses: actions/checkout@v4
-#        with:
-#          repository: Vrelnir/degrees-of-lewdity.git
-#          path: DoL
-#          ref: master
-#          github-server-url: 'https://gitgud.io'
-#          submodules: recursive
+     - name: DoL
+       uses: actions/checkout@v4
+       with:
+         repository: Vrelnir/degrees-of-lewdity.git
+         path: DOL
+         ref: master
+         github-server-url: 'https://gitgud.io'
+         submodules: recursive
 
 
       # /ModLoader  Init =========================================
